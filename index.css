@@ -135,7 +135,6 @@ body{
 .header-fixed__nav{
     display: flex;
     gap: 40px;
-
 }
 
 .header-fixed__nav a{
@@ -159,8 +158,215 @@ main{
 .banner{
     background-image: url(./205cbfdc9aaebe0b24fe64a2afa6556114cac28a.png);
     width: 100%;
-    height: 100vh;
     background-repeat: no-repeat;
-
+    height: 710px;
+    padding: 180px 72px 142px 72px;;
 }
 
+.banner__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__container-tags{
+    display: flex;
+    gap: 8px;
+}
+
+
+.banner__container-tags div{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 183%;
+    text-align: center;
+    display: flex;
+    gap: 8px;
+    background: rgba(57, 117, 254, 0.2);
+    border-radius: 21px;
+    padding: 6px 14px;
+    color: white;
+}
+
+.banner__container-title{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 110%;
+    letter-spacing: -0.03em;
+    color: white;
+    margin-top: 24px;
+}
+
+.banner__container-subtitle{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    color: #fff;
+}
+
+.banner__container-button{
+    display: flex;
+    gap: 16px;
+    margin-top: 48px;
+}
+
+.banner__container-button a{
+    border-radius: 16px;
+    background: #3975fe;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.06em;
+    text-align: center;
+    color: #fff;
+    padding: 17px 25px;
+    text-decoration: none;
+}
+
+.banner__container-button div{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.06em;
+    text-align: center;
+    color: #fff;
+    padding: 17px 40px;
+    cursor: pointer;
+}
+
+.directions{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.direction__subtitle{
+    background: rgba(57, 117, 254, 0.2);
+    border-radius: 21px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 183%;
+    text-align: center;
+    color: #003b67;
+    padding: 6px 14px;
+}
+
+.directions__title{
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 138%;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #003e6b;
+}
+
+.directions__description{
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #003e6b;
+}
+
+.direction-big{
+    display: flex;
+    margin-top: 52px;
+    gap: 24px;
+}
+
+.direction-big-right,
+.direction-big-left{
+    border-radius: 12px;
+    background: linear-gradient(47deg, #002c4b 0%, #003e6b 100%);
+    padding: 32px 30px;
+    min-height: 355px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.direction-big-right a,
+.direction-big-left a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #f9fafc;
+    text-decoration: none;
+    transition: .4s;
+    display: flex;
+    align-items: center;
+}
+
+.direction-big__title{
+    margin-top: auto;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+}
+
+.direction-big__description{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #f9fafc;
+    opacity: 0.7;
+    margin-top: 12px;
+}
+
+.direction-small{
+    margin-top: 24px;
+    display: flex;
+    gap: 24px;
+}
+
+.direction-small__item{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 24px;
+    min-height: 444px;
+    padding: 32px 30px;
+    background: #f9fafc;
+}
+
+
+.direction-small__item a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #003459;
+    display: flex;
+    align-items: center;
+}
+
+.direction-small__title{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #003053;
+    margin-top: auto;
+}
+
+.direction-small__description{
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #94b1c7;
+}
