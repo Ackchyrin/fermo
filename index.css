@@ -806,6 +806,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 55px;
+    max-width: 1440px;
 }
 
 .footer-top{
