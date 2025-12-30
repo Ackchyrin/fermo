@@ -1343,4 +1343,149 @@ main{
 
 @media screen and (max-width: 480px){
 
+    .footer-bottom__right,
+    .footer-top__left a:nth-child(3),
+    .footer-top__left a:nth-child(4),
+    .banner__container-tags div:nth-child(1),
+    .banner__container-tags div:nth-child(3),
+    .header__request,
+    .header__phone{
+        display: none;
+    }
+
+    .header{
+        padding: 18px 20px;
+    }
+
+    .header-fixed{
+        padding: 20px;
+        top: 53px;
+    }
+
+
+    .banner__container-title{
+        font-size: 24px;
+    }
+
+    .banner__container-subtitle{
+        font-size: 12px;
+    }
+
+    .banner{
+        padding: 141px 20px;
+    }
+
+    .blogs-list,
+    .directions{
+        margin-top: 32px;
+        padding: 0 20px;
+    }
+
+    .directions__title{
+        font-size: 22px;
+    }
+
+    .directions__description{
+        font-size: 14px;
+    }
+
+    .direction-big{
+        padding: 0 20px;
+    }
+
+    .direction-small__title,
+    .direction-big__title{
+        font-size: 18px;
+    }
+
+    .direction-small__description,
+    .direction-big__description{
+        font-size: 12px;
+    }
+
+    .direction-small{
+        padding: 0 20px;
+    }
+
+    .feedback-input{
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .feedback-title{
+        font-size: 24px;
+    }
+
+    .feedback-list{
+        font-size: 10px;
+    }
+
+    .feedback-button{
+        width: 100%;
+    }
+
+    .feedback-input input{
+        width: 100%;
+    }
+
+    .feedback{
+        margin: 43px 20px 0 20px;
+    }
+
+    .technologies-text__title{
+        font-size: 20px;
+    }
+
+    .technologies-text__description{
+        font-size: 14px;
+    }
+
+    .technologies-list__item-title{
+        font-size: 16px;
+    }
+
+    .technologies-list__item-description{
+        font-size: 12px;
+    }
+
+    .technologies{
+        margin-top: 32px;
+        padding: 0 20px;
+    }
+
+    .dilers-advantages{
+        margin-left: 20px;
+    }
+
+    .blogs,
+    .dilers,
+    .technologies{
+        margin-top: 32px;
+    }
+
+    .blogs-text__title{
+        font-size: 20px;
+    }
+
+    .blogs-text__description{
+        font-size: 14px;    
+    }
+
+    .blogs-list__item-title{
+        font-size: 16px;
+    }
+
+    .blogs-list__item{
+        width: 100%;
+    }
+
+    .footer-top{
+        flex-direction: column;
+        gap: 36px;
+    }
+
+    .footer-bottom{
+        flex-direction: column;
+    }
+
 }
